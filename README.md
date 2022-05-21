@@ -11,8 +11,10 @@ The Packer templates are for building base Vagrant boxes, these have minimal pro
 - OpenSSH
 
 These base boxes are available on [Vagrant Cloud](https://app.vagrantup.com/delfino):
-- [kali-2022.1-arm64](https://app.vagrantup.com/delfino/boxes/kali-2022.1-arm64)
-- [debian-11.3-arm64](https://app.vagrantup.com/delfino/boxes/debian11.3-arm64)
+| OS | Arch | Vagrant Cloud |
+|----|------|---------------|
+| Kali 2022.1 | ARM64 | [delfino/kali-2022.1-arm64](https://app.vagrantup.com/delfino/boxes/kali-2022.1-arm64) |
+| Debian 11.3 | ARM64 | [delfino/debian-11.3-arm64](https://app.vagrantup.com/delfino/boxes/debian11.3-arm64) |
 
 
 ## Provisioning 'full' box
