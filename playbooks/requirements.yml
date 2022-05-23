@@ -2,3 +2,4 @@
 collections:
  - x_delfino.vm_utils
  - x_delfino.utils
+ - x_delfino.jobs

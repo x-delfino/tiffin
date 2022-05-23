@@ -3,7 +3,7 @@
   roles:
     - x_delfino.vm_utils.vagrant_sudo
     - x_delfino.vm_utils.vagrant_ssh
-    - x_delfino.utils.upgrade_image
+    - x_delfino.jobs.upgrade_image
     - x_delfino.vm_utils.parallels_tools
     - x_delfino.vm_utils.vagrant_base
-    - x_delfino.utils.whiteout
+    - x_delfino.jobs.whiteout
