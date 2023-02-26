@@ -149,9 +149,11 @@ build {
   sources = ["source.parallels-iso.debian-install"]
 
   provisioner "ansible" {
-    playbook_file  = "${var.playbook}" 
-    galaxy_file    = "${var.galaxy_file}"
-    user           = "vagrant"
+    playbook_file          = "${var.playbook}" 
+    galaxy_file            = "${var.galaxy_file}"
+    ansible_ssh_extra_args = ["-oHostKeyAlgorithms=+ssh-rsa -oPubkeyAcceptedKeyTypes=+ssh-rsa -o IdentitiesOnly=yes"]
+    extra_arguments        = [ "--scp-extra-args", "'-O'" ]
+    user                   = "vagrant"
   }
 
   post-processors {
