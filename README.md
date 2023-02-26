@@ -15,6 +15,7 @@ These base boxes are available on [Vagrant Cloud](https://app.vagrantup.com/delf
 |----|------|---------------|
 | Kali 2022.1 | ARM64 | [delfino/kali-2022.1-arm64](https://app.vagrantup.com/delfino/boxes/kali-2022.1-arm64) |
 | Debian 11.3 | ARM64 | [delfino/debian-11.3-arm64](https://app.vagrantup.com/delfino/boxes/debian-11.3-arm64) |
+| Debian 11.6 | ARM64 | [delfino/debian-11.6-arm64](https://app.vagrantup.com/delfino/boxes/debian-11.6-arm64) |
 
 
 ## Provisioning 'full' box
