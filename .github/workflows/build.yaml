@@ -12,4 +12,5 @@ jobs:
       - name: checkout repo
         uses: actions/checkout@v4
 
-      - run: curl $PARALLELS_DMG_URL
+      - name: Install parallels
+        run: brew install parallels
