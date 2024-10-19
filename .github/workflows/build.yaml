@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: macos-latest-arm
+    runs-on: macos-latest
     steps:
       - name: checkout repo
         uses: actions/checkout@v4
