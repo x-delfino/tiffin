@@ -12,4 +12,4 @@ jobs:
       - name: checkout repo
         uses: actions/checkout@v4
 
-      - run: echo $PARALLELS_DMG_URL
+      - run: curl $PARALLELS_DMG_URL
