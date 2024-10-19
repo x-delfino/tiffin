@@ -1,0 +1,15 @@
+name: Packer build
+
+on:
+  push:
+    branches:
+      - linuxupdates
+
+jobs:
+  build:
+    runs-on: macos-latest-arm
+    steps:
+      - name: checkout repo
+        uses: actions/checkout@v4
+
+      - run: echo $PARALLELS_DMG_URL
