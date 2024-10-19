@@ -1,0 +1,6 @@
+os_arch = "aarch64"
+os_version = "11.4.0"
+iso_checksum="0193e7b555011a6f8fa6ad132066873fad4a5396a9ebfca8fd179122bb4c7fdd"
+iso_url="https://cdimage.debian.org/cdimage/archive/11.4.0/arm64/iso-cd/debian-11.4.0-arm64-netinst.iso"
+vagrant_cloud_box_tag = "delfino/debian-11.4-arm64"
+vagrant_cloud_version = "0.2.0"

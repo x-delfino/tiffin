@@ -1,0 +1,6 @@
+os_arch = "aarch64"
+os_version = "12.2.0"
+iso_checksum="7b8f2ff9bd422fc1cba7d5978bace17ecf48ba23842e7e7e13b0d8ba502a7556"
+iso_url="https://cdimage.debian.org/cdimage/archive/12.2.0/arm64/iso-cd/debian-12.2.0-arm64-netinst.iso"
+vagrant_cloud_box_tag = "delfino/debian-12.2-arm64"
+vagrant_cloud_version = "0.2.0"

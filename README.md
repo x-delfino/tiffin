@@ -21,3 +21,13 @@ These base boxes are available on [Vagrant Cloud](https://app.vagrantup.com/delf
 ## Provisioning 'full' box
 
 Additional Ansible playbooks and roles are available to fully provision the VM with tools and programs etc. A template Vagrantfile and associated variables can be used to configure the various options, further info pending...
+
+### Building
+
+To build a packer box is nice and easy using the standard packer build process. First select the specific template that you want to build from and initialise packer e.g.:
+
+```sh
+cd ./templates/linux/debian
+packer init -update debian-11.3.0-arm64.pkr.hcl
+```
+

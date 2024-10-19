@@ -1,0 +1,6 @@
+os_arch = "aarch64"
+os_version = "13.4.1"
+iso_checksum="md5:acd17423a6de261121454513f0a2b814"
+iso_url="https://updates.cdn-apple.com/2023SpringFCS/fullrestores/042-01877/2F49A9FE-7033-41D0-9D0C-64EFCE6B4C22/UniversalMac_13.4.1_22F82_Restore.ipsw"
+vagrant_cloud_box_tag = "delfino/macos-13.4.1-arm64"
+vagrant_cloud_version = "0.1.0"
